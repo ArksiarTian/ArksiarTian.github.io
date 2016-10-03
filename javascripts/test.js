@@ -6,7 +6,7 @@ window.onload = function()
     var text1=document.getElementById("text1");
     var text2=document.getElementById("text2");
     var text3=document.getElementById("text3");
-    one.onclick=function()
+    one.onmousedown=function()
     {
     	one.style.backgroundColor="#555555";
         window.location.href="http://mc.163.com";
@@ -25,7 +25,7 @@ window.onload = function()
 		//文字
 		text1.style.color="#FFFFFF";	
     }
-    two.onclick=function()
+    two.onmousedown=function()
     {
     	one.style.backgroundColor="#555555";
     	window.location.href="http://ow.blizzard.cn";
@@ -42,7 +42,7 @@ window.onload = function()
 		two.style.border="1px solid #CCCCCC";
 		text2.style.color="#FFFFFF";
     }
-    third.onclick=function()
+    third.onmousedown=function()
     {
     	one.style.backgroundColor="#555555";
     	window.location.href="http://www.github.com/ArksiarTian";
